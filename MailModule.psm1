@@ -1,5 +1,5 @@
-Add-Type -Path "C:\Program Files\PackageManagement\NuGet\Packages\MimeKit.3.1.0\lib\netstandard2.0\MimeKit.dll"
-Add-Type -Path "C:\Program Files\PackageManagement\NuGet\Packages\MailKit.3.1.0\lib\netstandard2.0\MailKit.dll"
+Add-Type -Path "C:\Program Files\PackageManagement\NuGet\Packages\MimeKit.3.6.1\lib\netstandard2.0\MimeKit.dll"
+Add-Type -Path "C:\Program Files\PackageManagement\NuGet\Packages\MailKit.3.6.0\lib\netstandard2.0\MailKit.dll"
 
 function Send-MailKitMessage{
     [CmdletBinding()]
